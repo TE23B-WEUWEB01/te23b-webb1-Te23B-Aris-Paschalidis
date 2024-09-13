@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Khmer:wght@100..900&display=swap');
+
+body {
+    background-image: url("./bilder/thomas-besseling-5kdPIhVZB9k-unsplash\ \(1\).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: "Noto Sans Khmer", sans-serif;
+    font-size: 100px;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 0 green;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+h2 {
+    font-family: "Noto Sans Khmer", sans-serif;
+    font-size: 50px;
+    color: #fff;
+    text-shadow: 5px 5px 0 green;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+p {
+    font-family: "Noto Sans Khmer", sans-serif;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-left: 1000px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: blue;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+
+}
