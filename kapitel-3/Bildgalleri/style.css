@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+
+/*  */
+body {
+    background-image: url("./bilder/PIA12158~orig.jpg"); 
+    color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.kontainer {
+    width: 800px;
+    padding: 40px;
+}
+
+.box {
+    background-color: black;
+    padding: 50px;
+}
+
+/* Sidans inn */
+h1 {
+    font-family: "Rubik Bubbles", system-ui;
+
+}
+
+h2 {
+    font-family: "Audiowide", sans-serif;
+
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    font-family: "Audiowide", sans-serif;
+
+}
