@@ -38,6 +38,8 @@ body {
 .box {
     display: flex;
     gap: 10px;
+    background-color: #3e447e;
+    border-radius: 10px;
 
 }
 
@@ -69,12 +71,12 @@ img {
 
 caption {
     padding: 10px;
-    border: 1px solid #9b99ad;
+    border: 1px solid #5e579c;
     font-family: "Gloria Hallelujah", cursive;
     border-radius: 10px;
 }
 table{
-border: 2px solid #9b99ad;
+border: 2px solid #5e579c;
 font-family: "Gloria Hallelujah", cursive;
 margin-top: 15px;
 color: #9b99ad;
@@ -86,14 +88,14 @@ tr{
 }
 th{
     padding: 10px;
-    border: 2px solid #9b99ad ;
+    border: 2px solid #5e579c ;
     font-family: "Gloria Hallelujah", cursive;
 }
 td{
     padding: 10px;
-    border: 2px solid #9b99ad;
+    border: 2px solid #5e579c;
 }
 div{
     padding: 10px;
-    background-color: #ffffff08;
+    background-color: #ffffff22;
 }
