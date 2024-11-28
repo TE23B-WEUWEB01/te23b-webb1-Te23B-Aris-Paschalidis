@@ -27,24 +27,31 @@ ul {
 body {}
 
 .kontainer {
+    background-color: #e3e3e3;
     width: 900px;
     padding: 20px;
     margin: auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.kontainer ul a:hover{
+    background-color: #9caf5d;
+}
+.kontainer ul .aktiv{
+    background-color: #9caf5d;
+}
 
 /* Innehållets utseende */
-ul{
+.kontainer ul{
     font-family: "Oswald", sans-serif;
     display: flex;
     justify-content: space-between;
     list-style-type: none;
     padding: 0 20px;
 }
-li{
+.kontainer ul li{
     
 }
-a{
+.kontainer ul a{
 text-decoration: none;
 color: #fff;
 background-color: #091540 ;
@@ -55,20 +62,36 @@ display: inline-block;
 box-shadow: 3px 3px 0 #999;
 text-align: center;
 }
-h1 {
+.kontainer h1{
     font-family: "Potta One", system-ui;
     color: #1B2CC1;
     font-size: 80px;
+    text-transform: uppercase;
 }
 
-p {}
+.kontainer p
+{
+margin: 20px auto;
+}
+.kontainer .tack {
+font-style: italic;
+}
+.kontainer .tack a {
+    text-decoration: none;
+    color: #DDA15E;
+}
 
-.tack {}
+.kontainer figure {
+width: 60%;
+background-color: #fff;
+padding: 20px;
+margin: 20px auto
+}
 
-figure {}
-
-img {
+.kontainer figure img {
     width: 100%;
 }
 
-figcaption {}
+.kontainer figure figcaption {
+
+}
