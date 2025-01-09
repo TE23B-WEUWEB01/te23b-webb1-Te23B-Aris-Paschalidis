@@ -1,0 +1,76 @@
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+/* .ruta{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 100px auto;
+    animation: bytFärgForm 5s infinite;
+}
+@keyframes bytFärgForm{
+    0%{
+ background-color: red;
+ transform: scale(1) translateX(0);
+ opacity: 0;
+    }
+    50%{
+        background-color: yellow;
+        transform: scale(2) translateX(200px);
+        box-shadow: 0 0 20px;
+        border-radius: 50%;
+        opacity: 1;
+    }
+    100%{
+        background-color: green;
+        transform: scale(1) translateX(0);
+        opacity: 0;
+    }
+} */
+/* Animera studsande emoji*/
+
+.emoji{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    margin: 100px auto;
+    animation: StusEmoji 3s infinite ;
+}
+.emoji2{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    margin: 100px auto;
+    animation: StusEmoji 3s infinite ;
+}
+.emoji3{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    margin: 100px auto;
+    animation: StusEmoji 3s infinite ;
+}
+@keyframes StusEmoji
+{
+    0%{
+background-color: #fff;
+        transform: scale(1) translateY(0);
+        opacity: 0;
+    }
+    50%{
+        transform: scale(1) translateY(100px) rotate(360deg);
+    }
+    100%{
+        transform: scale(1) translateY(0);
+    }
+}
+   

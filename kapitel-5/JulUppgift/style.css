@@ -47,7 +47,17 @@ li {
 }
 
 a {
-    border: 2px solid white;
+    text-decoration: none;
+    color: #fff;
+    background-color: #091540 ;
+    padding: 10px;
+    border-radius: 3px;
+    width: 140px;
+    display: inline-block;
+    box-shadow: 1px 1px #999;
+    text-align: center; 
+    margin-right: 10px;
+    
 }
 
 .box {}
