@@ -33,6 +33,7 @@ ul {
 /* Sidlayout */
 body {
     background-color: #fbf7f1;
+    background-repeat: no-repeat;
 }
 
 .kontainer {
@@ -48,7 +49,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 20px 0;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #ddd   ;
 }
 
 .sidhuvud .meny {
@@ -57,7 +58,7 @@ body {
 
 .sidhuvud .meny a {
     text-decoration: none;
-    color: #502314;
+    color: #ff4000;
     padding: 10px;
 }
 
