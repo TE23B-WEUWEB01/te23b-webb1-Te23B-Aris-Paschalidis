@@ -48,26 +48,33 @@ body {
         "sidhuvud sidhuvud"
         "artiklarna sidebar"
         "sidfot sidfot";
+    gap: 20px;
 }
 
 header {
     grid-area: sidhuvud;
-    background-color: rosybrown;
+    
 }
 
 main {
     grid-area: artiklarna;
-    background-color: yellowgreen;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
 }
 
 aside {
     grid-area: sidebar;
-    background-color: magenta;
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 20px;
 }
 
 footer {
     grid-area: sidfot;
-    background-color: lightslategray;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
 }
 
 /* Sidhuvud */
@@ -83,22 +90,40 @@ header h1 {
 header h2 {}
 
 /* Menyn */
-header nav {}
+header nav {
+   background: rgb(56, 136, 4);
+    background: linear-gradient(0deg, rgba(56, 136, 4, 1) 0%, rgba(26, 106, 47, 1) 35%, rgba(169, 237, 1, 1) 100%);
+    ;
+    padding: 20px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
-header nav a {}
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
 
-header nav a.aktiv {}
+header nav a.aktiv {background: rgb(4,125,95);
+    background: linear-gradient(0deg, rgba(4,125,95,1) 0%, rgba(26,106,92,1) 35%, rgba(1,237,111,1) 100%);}
 
-header nav a:hover {}
+header nav a:hover {background: rgb(4,125,95);
+    background: linear-gradient(0deg, rgba(4,125,95,1) 0%, rgba(26,106,92,1) 35%, rgba(1,237,111,1) 100%);}
 
 /* Sidan innehåll - artiklar, text mm */
 main {}
 
 main article {}
 
-main h3 {}
+main article h3 {}
 
-main figure {}
+main article figure {
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid #aaa;
+    margin-bottom: 20px;
+}
 
 main figure img {}
 
