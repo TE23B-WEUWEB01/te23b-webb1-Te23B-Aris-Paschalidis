@@ -32,13 +32,23 @@ img {
 body {
     background-image: url(./mandy-choi-_qZ0us4az20-unsplash.jpg);
 }
-
-.kontainer {
-    width: 1000px;
-    margin: auto;
-    padding: 20px;
+@media (min-width: 1000px) {
+    
+    .kontainer {
+        width: 1000px;
+        margin: auto;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-template-areas: 
+        "sidhuvud sidhuvud"
+        "artiklarna sidebar"
+        "sidfor sidfot"
+        ;
+        gap: 20px;
+    }
 }
-
+    
 /* bygga layouten */
 
 .kontainer {
@@ -50,7 +60,7 @@ body {
         "sidfot sidfot";
     gap: 20px;
 }
-
+/* För läsplatta */
 header {
     grid-area: sidhuvud;
     
