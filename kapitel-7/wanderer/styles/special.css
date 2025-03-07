@@ -1,6 +1,7 @@
 /* Regler bara för index.html */
 .wanderer{
 background: black;
+color: #fff;
 }
 .wanderer .vimeo{
 position: fixed;
@@ -22,4 +23,18 @@ overflow: hidden;
     left: 50%;
     transform: translate(-50%, -50%);
     border: none;
+}
+.wanderer main{
+    /* Css-trick för vertikal centrering */
+    display: grid;
+    align-items: center;
+}
+.earth h1{
+    color: #5D0B0D;
+}
+.earth header nav a {
+    color: #5D0B0D;
+}
+.earth header nav a:hover ,.earth header nav a.active {
+border-bottom: 3px solid #5D0B0D;
 }
