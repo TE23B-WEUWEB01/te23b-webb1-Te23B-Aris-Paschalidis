@@ -10,5 +10,5 @@ var helaNamnet = förnamn + " " + efternamn;
 var hobby = "thai mat";
 var kostnad = 4000;
 
-var mening =; helaNamnet + "'hobby är " + hobby + ".nMin hobby kostar "
+var mening = helaNamnet + "'hobby är " + hobby + ".Min hobby kostar "
 alert(mening);
